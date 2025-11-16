@@ -1,0 +1,94 @@
+### Create book
+POST http://localhost:8080/books
+Content-Type: application/json
+
+{
+  "id": 3,
+  "title": "Lord of the Rings"
+}
+
+### Create book in DB
+POST http://localhost:8080/books
+Content-Type: application/json
+
+{
+  "title": "Dune",
+  "authors": [
+    { "name": "Frank Herbert" }
+  ]
+}
+
+### Get all books
+GET http://localhost:8080/books
+
+### Create book for SSE test
+POST http://localhost:8080/books
+Content-Type: application/json
+
+{
+  "title": "SSE Test Book",
+  "authors": [
+    { "name": "Observer Lab" }
+  ]
+}
+
+### Get all books (to see the ID)
+GET http://localhost:8080/books
+
+### Delete a specific book by ID
+DELETE http://localhost:8080/books/2
+
+### 2. Create book in DB
+POST http://localhost:8080/books
+Content-Type: application/json
+
+{
+  "title": "The Lord of the Rings",
+  "authors": [
+    { "name": "J.R.R. Tolkien" }
+  ]
+}
+
+### 3. Create book in DB
+POST http://localhost:8080/books
+Content-Type: application/json
+
+{
+  "title": "1984",
+  "authors": [
+    { "name": "George Orwell" }
+  ]
+}
+
+### 4. Create book in DB
+POST http://localhost:8080/books
+Content-Type: application/json
+
+{
+  "title": "Harry Potter and the Philosopher's Stone",
+  "authors": [
+    { "name": "J.K. Rowling" }
+  ]
+}
+
+### 5. Create book in DB
+POST http://localhost:8080/books
+Content-Type: application/json
+
+{
+  "title": "Atomic Habits",
+  "authors": [
+    { "name": "James Clear" }
+  ]
+}
+
+### 6. Create book in DB
+POST http://localhost:8080/books
+Content-Type: application/json
+
+{
+  "title": "The Hobbit",
+  "authors": [
+    { "name": "J.R.R. Tolkien" }
+  ]
+}
